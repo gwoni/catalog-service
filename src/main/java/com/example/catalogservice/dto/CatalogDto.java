@@ -5,7 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-public class catalogDto implements Serializable {
+public class CatalogDto implements Serializable {
 	private String productId;
 	private Integer qty;
 	private Integer unitPrice;
